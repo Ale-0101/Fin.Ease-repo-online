@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body {
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 90vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 5px;
+    width: 70%;
+    height: 90%;
+    color: black;
+}
+
+.box h1 {
+    padding: 15px;
+    font-size: 6vmin;
+}
+
+.box h2 {
+    padding: 15px;
+    font-size: 4vmin;
+    align-items: center;
+}
+
+.container h2 {
+    font-size: 3vmin;
+    font-style: italic;
+}
+
+.box p {
+    padding: 15px;
+    width: 90%;
+    font-size: 2vmin;
+
+}
+
+.box img {
+    max-width: 95%;
+}
